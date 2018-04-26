@@ -4,14 +4,14 @@ class UsersController < ApplicationController
 	end 
 	
 	def new
-	##	@users = User.create (username: params["name"], bio: params["bio"])
-##puts params 
+	 
 	end
 
 	def bio 
 	end
 		
-	
+	#Création d'une méthode show qui récupère le params entré dans
+	#la barre d'adresse et renvoie vers sa page de profil
 	def show
 		puts @user = User.find(params[:id])
 	end

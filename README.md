@@ -36,18 +36,21 @@ Pour ce jeudi 26 avril 2018 dans le cadre de la découverte de Ruby on Rails, no
 # Consignes d'utilisation
 
 Pour ouvrir chaque app et la tester il faut downloader le dossier, se placer dedans dans votre terinal et lancer en commande:
-< bundle install/>
+
+> $ bundle install
 
 Puis taper la commande:
 
-< rails server/>
+> $ rails server
 
 
 Pour voir la base données exécuter en commande un
 
-<db:create>
+> $ rails db:create
+
 ou
-<db:migrate> 
+
+> $ rails db:migrate
 
 Puis ouvrir le fichier sqlite dans le dossier db de l'app, soit avec dbBrowser soit avec SqliteStudio ou autre et visionner.
 
