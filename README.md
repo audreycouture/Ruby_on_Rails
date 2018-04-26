@@ -13,9 +13,13 @@ Créations d'app Ruby on Rails
 ##- Audrey (@audreycouture)
 
 ##- Jerome (@Jerome)
+
 ##- Damien (@damien13005)
+
 ##- Maxime (@Maxime)
+
 ##- Sam 	(@sam)
+
 
 ##Fait en pair programming
 
