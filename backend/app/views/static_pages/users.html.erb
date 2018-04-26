@@ -1,0 +1,8 @@
+<h1>---Inscription---</h1>
+<form action="/users" method="POST">
+<ul>
+  <li><input type="string" placeholder="Entrez votre nom" name="username"></li></br>
+  <li><input type="text" placeholder="Entrez votre bio" name="bio"></li></br>
+  <input type="submit" value="Envoyer le formulaire">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"></ul>
+  </form>
