@@ -72,13 +72,15 @@ Puis ouvrir le fichier sqlite dans le dossier db de l'app, soit avec dbBrowser s
 - localhost:3000/about/maxime
 
 
-2. Backend => complété jusqu'à 4.2 inclu (manque username et validations)
+2. Backend => complété jusqu'à 5.2 inclu (manque username et validations)
 - model User avec username et bio
 - root page d'accueil
 - page de création d'utlisateur (post)
 - méthode new pour création d'utilisateur
 - formulaire HTML (username et bio)
 - redirection vers la page profil peronnalisée du user via l'id
+- validation du username
+- redirection vers une page d'erreur
 
 
 

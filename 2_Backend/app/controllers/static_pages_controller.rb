@@ -6,12 +6,10 @@ def new
 		user.username = params["username"]
 		user.bio = params["bio"]
 		user.save
-		unless user.username == nil
+		unless user.save == false
 			redirect_to "http://localhost:3000/users/#{user.id}"
 		else
-			user.last.remove
-			@error = user.errors
-			redirect_to "http://localhost:3000/users/errors"
+			redirect_to "/users/errors"
 		end
 
 
