@@ -59,6 +59,7 @@ Puis ouvrir le fichier sqlite dans le dossier db de l'app, soit avec dbBrowser s
 
 # Résultats
 1. Exo en static complet
+
 1.2.3.4. App rail contenant neufs pages:
 - localhost:3000  => Home en racine
 - localhost:3000/contact
